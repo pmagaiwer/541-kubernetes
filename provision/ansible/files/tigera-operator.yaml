@@ -90,8 +90,6 @@ rules:
       - stagedkubernetesnetworkpolicies.crd.projectcalico.org
       - networksets.crd.projectcalico.org
       - tiers.crd.projectcalico.org
-      - whiskers.operator.tigera.io
-      - goldmanes.operator.tigera.io
       - managementclusterconnections.operator.tigera.io
   # We need update and delete access for ANP/BANP CRDs to set owner refs when assuming control of pre-existing CRDs, for example on OCP.
   - apiGroups:
